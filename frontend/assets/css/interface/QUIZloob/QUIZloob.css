@@ -1,0 +1,52 @@
+
+.container .container-loob{
+    display: flex;
+    flex-direction: column;
+    background-color: #00000013;
+    box-shadow: 0px 4px 10px #6965651a;
+    border-radius: 15px;
+    height: 100dvh;
+    width: 58%;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .container .container-loob .titulo-loob{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .container .container-loob .jogador-loob{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 100px;
+  }
+  .container .apelido{
+    margin: 10px;
+    border-bottom: 2px solid #2fff93;
+    text-transform: capitalize;
+  }
+  .container .informacoes-loob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1.5px solid white;
+    box-shadow: 0px 0.1px 4px white;
+    color: #2fff93;
+    font-size: 20px;
+    font-weight: 700;
+    width: 8rem;
+    height: 5rem;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+  }
+  
+  .container .hider {
+    display: none;
+  }
+ 

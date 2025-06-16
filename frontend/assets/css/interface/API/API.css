@@ -1,0 +1,53 @@
+.container .User-interface-criar-servidor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+  }
+  .container .botoes-modalidade button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    background-color: #00ff44;
+    color: #110808;
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+  }
+  .container .botoes-modalidade button:hover{
+    background-color: #04880d;
+    transition: 400ms;
+  }
+  .container .botao-retornar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+  .container .botao-retornar img{
+    height: 30px;
+  }
+  .container .botao-retornar p{
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+  }
+  .container .botao-retornar p:hover{
+  color: blue;
+  }
+  .container #servidor-cheio{
+    margin-top: 20px;
+    color: red;
+  }

@@ -1,0 +1,16 @@
+@import url("container/container.css");
+@import url("API/API.css");
+@import url("QUIZ/QUIZ.css");
+@import url("QUIZloob/QUIZloob.css");
+@import url("Responcividade/Responcividade.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  overflow: hidden;
+  height: 100dvh;
+  width: 100dvw;
+}

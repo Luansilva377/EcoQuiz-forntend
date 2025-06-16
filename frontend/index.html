@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Plataforma de quiz sobre Educação ambiental nas instituições de ensino.">
+    <meta name="keywords" content="sustentabilidade, Educação Ambiental, plataforma">
+    <link rel="shortcut icon" href="https://i.ibb.co/h1B8J30m/folha-de-dogwood.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/interface/style.css">
+    <title>EcoQuiz</title>
+    <script src="assets/js/interface/script.js" type="module" defer></script>
+</head>
+
+<body>
+    <main class="container"><!-- colocar um tipo de munu com as informaço~es da plataforma -->
+        <div class="descricao-plataforma">
+            <img id="img-descricao" src="https://i.ibb.co/nMpQ5Fp8/livro-1.png" alt="livro para descricao da plataforma">
+        </div>
+        <div class="interface-descricao hider">
+            <div class="container-voltar-descricao">
+                <img id="voltar-descricao" src="https://i.ibb.co/G30TP30z/cancelar.png" alt="voltar">
+            </div>
+            <p id="main-descricao">Bem-vindo ao EcoQuiz, nosso quiz sobre sustentabilidade! <br> Antes de começar, confira as regras da partida: <br>Duração: Cada jogo tem um tempo total de 6 minutos. <br>Jogadores: Máximo de 8 participantes por servidor. <br> Quiz: Responda perguntas de múltipla escolha sobre temas relacionados à sustentabilidade. <br> Pontos: Ao responder corretamente, você ganha pontos. <br>Escolha estratégica: Após cada acerto, você pode escolher entre: <br>Somar os pontos para você, ou <br>Retirar pontos de um adversário. <br>Tática: Use suas respostas corretas para avançar ou atrapalhar os outros jogadores! <br> Vitória: Quando o tempo acabar, vence quem tiver mais pontos acumulados. <br>Boa sorte!! </p>
+        </div>
+        <section class="User-Interface">
+            <header>
+                <h1 class="titulo-nome-plataforma">EcoQuiz</h1>
+            </header>
+            <input type="text" id="username" placeholder="Apelido" maxlength="7">
+            <button id="Entrar-sevidor">Entrar em um Servidor</button>
+        </section>
+
+        <section class="User-interface-criar-servidor hider">
+            <header>
+                <h2 class="titulo-nome-plataforma">EcoQuiz</h2>
+            </header>
+            <h2>Escolha uma das opcões!!</h2>
+            <div class="botoes-modalidade">
+                <button id="btn-MaisOpcoes">Mais opções...</button>
+                <button id="btn-Sustentabilidade">Sustenatbilidade</button>
+            </div>
+            <p id="servidor-cheio"></p>
+            <div class="botao-retornar">
+                <img src="https://i.ibb.co/7t4pbC90/duas-setas-para-a-esquerda.png" alt="seta retornar">
+                <p>Retornar</p>
+            </div>
+        </section>
+        <section class="container-loob hider">
+            <h4 class="titulo-loob">EcoQuiz</h4>
+            <hr>
+            <div id="cronometro">Tempo restante: 0</div>
+            <div class="jogador-loob"> </div>
+            </div>
+        </section>
+        <section class="quiz-container hider"> 
+            
+            <h3 id="pergunta">Carregando...</h3>
+            <div class="options" id="opcoes"></div>
+            <p id="feedback" class="feedback"></p>
+            <p id="feedback-resposta-correta" class="feedback"></p>
+            
+        </section>
+        <section class="sesao-quiz_perguntas hider">
+            <div id="fim-do-quiz" class="hider">
+                <h6>QUIZ CHEGOU AO FIM!!</h6>
+              </div>
+              <div id="fim-jogador-venvedor" class="hider">
+                <p id="jogador-vencedor"></p>
+              </div>
+        </section>
+        <section class="feedback-situacao-jogo hider">            
+            <h5 id="feedback-esperando-jogadores"> </h5>
+        </section>
+        
+    </main>
+</body>
+
+</html>

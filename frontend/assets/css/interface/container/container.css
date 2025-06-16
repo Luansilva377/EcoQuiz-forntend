@@ -1,0 +1,84 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    width: 100dvw;
+    background-color: #1d2428;
+    color: white;
+  }
+  .container .descricao-plataforma{
+   position: absolute;
+   top: 30px;
+   right: 30px;
+   cursor: pointer;
+  }
+  .container .descricao-plataforma #img-descricao{
+    height: 50px;
+    width: 50px;
+  }
+  .container .interface-descricao{
+    background-color: #000000c0;
+    overflow-y: scroll;
+    height: 20rem;
+    width: 33rem;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid #00ff44;
+    scrollbar-width: none; 
+    color: burlywood;
+    text-align: justify;
+  }
+  .container .interface-descricao .container-voltar-descricao{
+    display: flex;
+    justify-content: end;
+  }
+  .container .interface-descricao #voltar-descricao{
+    height: 20px;
+    cursor: pointer;
+    margin-right: -16px;
+    position: fixed;
+  }
+  .User-Interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    height: 35%;
+    width: 50%;
+  }
+  .container .titulo-nome-plataforma {
+    color: #007e11;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .User-Interface #username,
+  .User-Interface button {
+    text-transform: capitalize;
+    margin: 10px auto;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+  }
+  .container .User-Interface #username{
+    outline: none;
+  }
+  .User-Interface button {
+    cursor: pointer;
+    background-color: #00ff44;
+    color: #000000;
+  }
+  .User-Interface button:hover {
+    background-color: #00b318;
+  }
+  

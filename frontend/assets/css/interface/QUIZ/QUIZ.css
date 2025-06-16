@@ -1,0 +1,88 @@
+
+.container .quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    height: 96%;
+    width: 40%;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0000001a;
+    text-align: center;
+    font-weight: 900;
+  }
+  .container .sesao-quiz_perguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    height: 96%;
+    width: 40%;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0000001a;
+    text-align: center;
+  }
+  .container .sesao-quiz_perguntas #fim-do-quiz{
+    color: black;    
+    font-size: 20px;
+  }
+  .container .feedback-situacao-jogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    height: 97%;
+    width: 40%;
+    border-radius: 30px;
+    background-color: #0000001a;
+  }
+  .container .options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .options button {
+    display: block;
+    width: 40%;
+    margin: 5px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
+  .options button:hover {
+    background-color: #0056b3;
+  }
+  .feedback {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .container .quiz-container #BotaoINicil{
+    background-color: #007BFF;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+  }
+  .container .quiz-container h6{
+    margin: auto;
+  }
+  .container .hider{
+    display: none;
+  }
