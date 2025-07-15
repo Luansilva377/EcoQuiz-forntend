@@ -1,0 +1,62 @@
+.container .User-interface-criar-servidor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 600px;
+  }
+  .container .botoes-modalidade button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    letter-spacing: 3.5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-top: 30px;
+    border: solid #04880d 1px;
+  }
+  .container .User-interface-criar-servidor .mensagem-Jogador{
+     animation: piscar 1.5s infinite ease-in-out;
+  }
+  .container .botoes-modalidade button:hover{
+    background-color: #02b30e8f;
+    transition: 400ms;
+  }
+  .container .botao-retornar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+  }
+  .container .botao-retornar img{
+    height: 30px;
+  }
+  .container .botao-retornar p{
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+  }
+  .container .botao-retornar p:hover{
+  color: blue;
+  }
+  .container #servidor-cheio{
+    margin-top: 20px;
+    color: red;
+  }
+  @keyframes piscar {
+      0%   { opacity: 1; }
+      50%  { opacity: 0.3; }
+      100% { opacity: 1; }
+    }

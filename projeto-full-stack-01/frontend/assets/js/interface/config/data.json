@@ -1,0 +1,281 @@
+{
+
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual é a melhor forma de economizar água no banho?",
+        "options": [
+          "Usar chuveiro elétrico",
+          "Tomar banhos curtos de até 5 minutos",
+          "Usar balde ao invés de ducha",
+          "Deixar a água esquentar com o chuveiro ligado por alguns minutos"
+        ],
+        "answer": "Tomar banhos curtos de até 5 minutos"
+      },
+      {
+        "id": 2,
+        "question": "Qual é a maneira mais sustentável de se locomover em áreas urbanas?",
+        "options": [
+          "Carro híbrido",
+          "Transporte público",
+          "Carona com amigos",
+          "Bicicleta ou caminhar"
+        ],
+        "answer": "Bicicleta ou caminhar"
+      },
+      {
+        "id": 3,
+        "question": "O que fazer com o óleo de cozinha usado para evitar poluição?",
+        "options": [
+          "Jogar na pia com detergente",
+          "Misturar no lixo orgânico",
+          "Guardar em garrafa PET e levar ao ponto de coleta",
+          "Enterrar no jardim"
+        ],
+        "answer": "Guardar em garrafa PET e levar ao ponto de coleta"
+      },
+      {
+        "id": 4,
+        "question": "Qual prática ajuda a reduzir o consumo de energia em casa?",
+        "options": [
+          "Usar ar-condicionado no modo automático",
+          "Desligar aparelhos da tomada quando não estiverem em uso",
+          "Utilizar lâmpadas incandescentes",
+          "Ligar todos os aparelhos no mesmo horário"
+        ],
+        "answer": "Desligar aparelhos da tomada quando não estiverem em uso"
+      },
+      {
+        "id": 5,
+        "question": "Ao fazer compras, qual atitude é mais sustentável?",
+        "options": [
+          "Comprar produtos com embalagem plástica reciclável",
+          "Comprar a granel com embalagem reutilizável",
+          "Comprar produtos importados",
+          "Usar sacola plástica biodegradável"
+        ],
+        "answer": "Comprar a granel com embalagem reutilizável"
+      },
+      {
+        "id": 6,
+        "question": "Qual tipo de alimentação gera menor impacto ambiental?",
+        "options": [
+          "Alimentação baseada em vegetais",
+          "Alimentação rica em carne vermelha",
+          "Dieta com alimentos ultraprocessados",
+          "Comer peixe todos os dias"
+        ],
+        "answer": "Alimentação baseada em vegetais"
+      },
+      {
+        "id": 7,
+        "question": "Qual dessas ações contribui para a redução de resíduos?",
+        "options": [
+          "Reciclar tudo que for possível",
+          "Comprar apenas o necessário e reutilizar embalagens",
+          "Usar produtos descartáveis com menor frequência",
+          "Levar o lixo para reciclagem uma vez por mês"
+        ],
+        "answer": "Comprar apenas o necessário e reutilizar embalagens"
+      },
+      {
+        "id": 8,
+        "question": "Qual dessas atitudes ajuda a combater o desmatamento?",
+        "options": [
+          "Consumir madeira de reflorestamento certificada",
+          "Usar móveis de madeira maciça antiga",
+          "Comprar produtos importados de florestas tropicais",
+          "Evitar qualquer produto de madeira"
+        ],
+        "answer": "Consumir madeira de reflorestamento certificada"
+      },
+      {
+        "id": 9,
+        "question": "O que é mais eficiente para economizar energia na iluminação?",
+        "options": [
+          "Pintar paredes de cores claras",
+          "Usar luminárias grandes",
+          "Deixar luzes acesas durante o dia",
+          "Instalar lâmpadas incandescentes"
+        ],
+        "answer": "Pintar paredes de cores claras"
+      },
+      {
+        "id": 10,
+        "question": "Qual é a melhor forma de consumir roupas de maneira sustentável?",
+        "options": [
+          "Comprar roupas novas de algodão orgânico",
+          "Comprar roupas de marcas conhecidas",
+          "Dar preferência a brechós ou trocar com amigos",
+          "Escolher roupas com estampas ecológicas"
+        ],
+        "answer": "Dar preferência a brechós ou trocar com amigos"
+      },
+      {
+        "id": 11,
+        "question": "Qual destas atitudes mais ajuda a reduzir a emissão de gases do efeito estufa?",
+        "options": [
+          "Usar papel reciclado",
+          "Evitar o desperdício de alimentos",
+          "Ler livros digitais",
+          "Beber água mineral"
+        ],
+        "answer": "Evitar o desperdício de alimentos"
+      },
+      {
+        "id": 12,
+        "question": "Qual é a forma mais correta de descartar pilhas e baterias usadas?",
+        "options": [
+          "Colocar no lixo comum",
+          "Enterrar no quintal",
+          "Levar aos pontos de coleta específicos",
+          "Jogar no vaso sanitário"
+        ],
+        "answer": "Levar aos pontos de coleta específicos"
+      },
+      {
+        "id": 13,
+        "question": "Qual dessas ações reduz o uso de plástico descartável?",
+        "options": [
+          "Comprar garrafas d'água pequenas",
+          "Levar garrafa reutilizável",
+          "Utilizar copos plásticos biodegradáveis",
+          "Usar sacos plásticos mais grossos"
+        ],
+        "answer": "Levar garrafa reutilizável"
+      },
+      {
+        "id": 14,
+        "question": "O que é mais sustentável ao cozinhar?",
+        "options": [
+          "Usar micro-ondas em vez de forno elétrico",
+          "Deixar a torneira aberta enquanto lava os legumes",
+          "Fazer porções maiores e guardar sobras",
+          "Lavar a louça com água quente"
+        ],
+        "answer": "Fazer porções maiores e guardar sobras"
+      },
+      {
+        "id": 15,
+        "question": "Qual é uma boa prática para economizar papel no dia a dia?",
+        "options": [
+          "Imprimir frente e verso",
+          "Usar folhas pequenas",
+          "Guardar papéis usados",
+          "Digitalizar e depois imprimir"
+        ],
+        "answer": "Imprimir frente e verso"
+      },
+      {
+        "id": 16,
+        "question": "O que mais contribui para o uso racional da água na jardinagem?",
+        "options": [
+          "Regar no fim da manhã",
+          "Usar mangueira com esguicho",
+          "Regar à noite ou de manhã cedo",
+          "Lavar plantas com balde"
+        ],
+        "answer": "Regar à noite ou de manhã cedo"
+      },
+      {
+        "id": 17,
+        "question": "Qual dessas escolhas é melhor para reduzir a poluição digital?",
+        "options": [
+          "Arquivar e-mails antigos",
+          "Deixar o computador ligado o dia todo",
+          "Apagar e-mails desnecessários e reduzir arquivos na nuvem",
+          "Manter backups duplicados"
+        ],
+        "answer": "Apagar e-mails desnecessários e reduzir arquivos na nuvem"
+      },
+      {
+        "id": 18,
+        "question": "O que é mais sustentável ao comprar móveis?",
+        "options": [
+          "Comprar móveis novos com design ecológico",
+          "Comprar móveis de madeira tropical",
+          "Reformar ou reutilizar móveis usados",
+          "Importar móveis sustentáveis"
+        ],
+        "answer": "Reformar ou reutilizar móveis usados"
+      },
+      {
+        "id": 19,
+        "question": "Como uma empresa pode reduzir sua pegada ambiental no escritório?",
+        "options": [
+          "Oferecendo café em copos plásticos",
+          "Usando papel reciclado e digitalizando documentos",
+          "Aumentando o ar-condicionado para 20ºC",
+          "Proibindo o uso de eletrônicos pessoais"
+        ],
+        "answer": "Usando papel reciclado e digitalizando documentos"
+      },
+      {
+        "id": 20,
+        "question": "Qual é a melhor atitude ao fazer compras online?",
+        "options": [
+          "Comprar de vários fornecedores diferentes",
+          "Escolher frete rápido",
+          "Agrupar compras para reduzir transporte",
+          "Escolher embalagens maiores"
+        ],
+        "answer": "Agrupar compras para reduzir transporte"
+      },
+      {
+        "id": 21,
+        "question": "Qual desses hábitos reduz o consumo energético em eletrodomésticos?",
+        "options": [
+          "Abrir a geladeira com frequência",
+          "Descongelar o freezer periodicamente",
+          "Aumentar o brilho da TV",
+          "Ligar todos os aparelhos juntos"
+        ],
+        "answer": "Descongelar o freezer periodicamente"
+      },
+      {
+        "id": 22,
+        "question": "Qual atitude ajuda a proteger os oceanos?",
+        "options": [
+          "Evitar consumo de peixes ameaçados",
+          "Usar shampoo perfumado",
+          "Tomar banho mais demorado",
+          "Usar sacolas plásticas biodegradáveis"
+        ],
+        "answer": "Evitar consumo de peixes ameaçados"
+      },
+      {
+        "id": 23,
+        "question": "Qual a melhor forma de evitar o desperdício de alimentos em casa?",
+        "options": [
+          "Comprar em grandes quantidades para estocar",
+          "Aproveitar cascas e talos em receitas",
+          "Guardar comida aberta fora da geladeira",
+          "Doar apenas alimentos vencidos"
+        ],
+        "answer": "Aproveitar cascas e talos em receitas"
+      },
+      {
+        "id": 24,
+        "question": "O que é mais sustentável ao viajar para lugares naturais?",
+        "options": [
+          "Usar transporte particular para explorar trilhas",
+          "Deixar lixo no local para coleta",
+          "Levar sacolas para recolher o lixo gerado",
+          "Comprar lembranças de origem duvidosa"
+        ],
+        "answer": "Levar sacolas para recolher o lixo gerado"
+      },
+      {
+        "id": 25,
+        "question": "Qual é uma boa prática ao usar equipamentos eletrônicos?",
+        "options": [
+          "Deixar em standby",
+          "Atualizar sempre os sistemas",
+          "Desligar completamente quando não estiver usando",
+          "Manter todos os cabos conectados o tempo todo"
+        ],
+        "answer": "Desligar completamente quando não estiver usando"
+      }
+    ]
+  }
+  

@@ -1,0 +1,35 @@
+@media (width < 600px) {
+  .User-Interface #username,
+  .User-Interface #Entrar-sevidor,
+  .User-Interface {
+    width: 100%;
+  }
+}
+@media (width< 600px) {
+  .container .User-interface-criar-servidor {
+    width: 100dvw;
+    text-align: center;
+  }
+  .container .User-interface-criar-servidor .botoes-modalidade {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .interface-descricao{
+    width: auto;
+  }
+}
+@media (width < 850px) {
+  .container .container-loob {
+    overflow-y: scroll;
+  }
+  .container .container-loob,
+  .container .quiz-container,
+  .container .feedback-situacao-jogo,
+  .container .sesao-quiz_perguntas {
+    width: 100dvw;
+    position: relative;
+  }
+  .container {
+    overflow: hidden;
+  }
+}
