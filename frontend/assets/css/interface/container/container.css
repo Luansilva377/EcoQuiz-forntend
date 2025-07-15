@@ -53,17 +53,17 @@
     border-radius: 10px;
     height: 35%;
     width: 50%;
+    margin: auto;
   }
   .container .titulo-nome-plataforma {
     color: #007e11;
     font-size: 40px;
     font-weight: 900;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   .User-Interface #username,
   .User-Interface button {
-    text-transform: capitalize;
     margin: 10px auto;
     padding: 10px;
     width: 70%;

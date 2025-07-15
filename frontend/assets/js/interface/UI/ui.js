@@ -86,3 +86,11 @@
       const IconDescricao = document.querySelector(".interface-descricao");
       IconDescricao.classList.remove("hider");
     }
+    export function appearermensagemDeConexao() {
+      const MansagemDeConexao = document.getElementById("loading")
+      MansagemDeConexao.classList.remove("hider");
+    }
+    export function hidermensagemDeConexao() {
+      const MansagemDeConexao = document.getElementById("loading")
+      MansagemDeConexao.classList.add("hider");
+    }

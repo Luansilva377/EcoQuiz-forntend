@@ -18,6 +18,7 @@
 
 <body>
     <main class="container"><!-- colocar um tipo de munu com as informaço~es da plataforma -->
+        <div id="loading" class="hider"> Conectando ao servidor...</div>
         <div class="descricao-plataforma">
             <img id="img-descricao" src="https://i.ibb.co/nMpQ5Fp8/livro-1.png" alt="livro para descricao da plataforma">
         </div>
@@ -28,10 +29,10 @@
             <p id="main-descricao">Bem-vindo ao EcoQuiz, nosso quiz sobre sustentabilidade! <br> Antes de começar, confira as regras da partida: <br>Duração: Cada jogo tem um tempo total de 6 minutos. <br>Jogadores: Máximo de 8 participantes por servidor. <br> Quiz: Responda perguntas de múltipla escolha sobre temas relacionados à sustentabilidade. <br> Pontos: Ao responder corretamente, você ganha pontos. <br>Escolha estratégica: Após cada acerto, você pode escolher entre: <br>Somar os pontos para você, ou <br>Retirar pontos de um adversário. <br>Tática: Use suas respostas corretas para avançar ou atrapalhar os outros jogadores! <br> Vitória: Quando o tempo acabar, vence quem tiver mais pontos acumulados. <br>Boa sorte!! </p>
         </div>
         <section class="User-Interface">
-            <header>
+            <header> 
                 <h1 class="titulo-nome-plataforma">EcoQuiz</h1>
             </header>
-            <input type="text" id="username" placeholder="Apelido" maxlength="7">
+            <input type="text" id="username" placeholder="Insira um Apelido" maxlength="7" >
             <button id="Entrar-sevidor">Entrar em um Servidor</button>
         </section>
 
@@ -39,10 +40,9 @@
             <header>
                 <h2 class="titulo-nome-plataforma">EcoQuiz</h2>
             </header>
-            <h2>Escolha uma das opcões!!</h2>
+            <p class="mensagem-Jogador"> É hora do jogo!</p>
             <div class="botoes-modalidade">
-                <button id="btn-MaisOpcoes">Mais opções...</button>
-                <button id="btn-Sustentabilidade">Sustenatbilidade</button>
+                <button id="btn-Sustentabilidade">play</button>
             </div>
             <p id="servidor-cheio"></p>
             <div class="botao-retornar">
@@ -51,7 +51,7 @@
             </div>
         </section>
         <section class="container-loob hider">
-            <h4 class="titulo-loob">EcoQuiz</h4>
+            <h3 class="titulo-loob">EcoQuiz</h3>
             <hr>
             <div id="cronometro">Tempo restante: 0</div>
             <div class="jogador-loob"> </div>
@@ -59,7 +59,7 @@
         </section>
         <section class="quiz-container hider"> 
             
-            <h3 id="pergunta">Carregando...</h3>
+            <h4 id="pergunta">Carregando...</h4>
             <div class="options" id="opcoes"></div>
             <p id="feedback" class="feedback"></p>
             <p id="feedback-resposta-correta" class="feedback"></p>
@@ -67,14 +67,14 @@
         </section>
         <section class="sesao-quiz_perguntas hider">
             <div id="fim-do-quiz" class="hider">
-                <h6>QUIZ CHEGOU AO FIM!!</h6>
+                <h5>QUIZ CHEGOU AO FIM!!</h5>
               </div>
               <div id="fim-jogador-venvedor" class="hider">
                 <p id="jogador-vencedor"></p>
               </div>
         </section>
         <section class="feedback-situacao-jogo hider">            
-            <h5 id="feedback-esperando-jogadores"> </h5>
+            <h6 id="feedback-esperando-jogadores"> </h6>
         </section>
         
     </main>

@@ -14,3 +14,7 @@ body {
   height: 100dvh;
   width: 100dvw;
 }
+  .container .hider{
+    display: none;
+    opacity: 0;
+  }

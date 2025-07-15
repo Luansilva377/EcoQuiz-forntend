@@ -11,12 +11,14 @@ export function InteracaoEnatrarServidor() {
 
   function entrarServidor() {
     appearerContainerModalidade();
-    hiderContainerEntrarServidor();
-    if (inputApelido.innerText === "") return;
+    if (inputApelido.value === ""){
+      inputApelido.value = "jogador";
+    };
+      hiderContainerEntrarServidor();
   }
   btnEntrarServidor.addEventListener("click", entrarServidor);
 
-  inputApelido.addEventListener("keydown", function (event) {
+  document.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
       entrarServidor();
     }

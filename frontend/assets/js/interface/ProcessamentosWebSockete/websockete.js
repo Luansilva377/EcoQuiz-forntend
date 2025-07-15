@@ -1,18 +1,18 @@
 import { userInformacoes } from "../informacoesParticipantes/userParticipantes.js";
 import { websockat } from "../modalidades/modalidades.js";
-import { hiderContainerQuiz,  appearerContainerloob, appearerContainerQuiz , hiderContainerModalidades, hiderfeedbackSituacao, appearerfeedbackSituacao, hiderQuestoesQuiz, appearerContainerEntrarServidor, hiderContainerloob, appearerIconDescricao, appearerQuestoesQuiz, appearerMensagemjogadorVencedor, hiderMensagemFimQuiz} from "../UI/ui.js";
+import { hiderContainerQuiz,  appearerContainerloob, appearerContainerQuiz , hiderContainerModalidades, appearerContainerModalidade, hiderfeedbackSituacao, appearerfeedbackSituacao, hiderQuestoesQuiz, appearerContainerEntrarServidor, hiderContainerloob, appearerIconDescricao, appearerQuestoesQuiz, appearerMensagemjogadorVencedor, hiderMensagemFimQuiz} from "../UI/ui.js";
 
 
   const ExibirMensagemServidor = document.getElementById("feedback-esperando-jogadores");
   const conometro = document.getElementById("cronometro");
+  const servidorCheio = document.getElementById("servidor-cheio");
 
 
   export const ReceberInformacoesParticipantes = ({ data }) => {
     const dados = JSON.parse(data);
-    console.log(dados);
-
     
     if (dados.tipo === "erro") {
+      appearerContainerModalidade();
       servidorCheio.innerText = dados.mensagem;
       return;
     }

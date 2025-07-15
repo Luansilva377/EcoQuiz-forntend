@@ -3,25 +3,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 100dvh;
     width: 600px;
   }
   .container .botoes-modalidade button{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    background-color: #00ff44;
-    color: #110808;
-    height: 70px;
-    width: 250px;
-    border-radius: 10px;
-    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    letter-spacing: 3.5px;
     text-transform: capitalize;
     cursor: pointer;
     margin-top: 30px;
-    border: none;
+    border: solid #04880d 1px;
+  }
+  .container .User-interface-criar-servidor .mensagem-Jogador{
+     animation: piscar 1.5s infinite ease-in-out;
   }
   .container .botoes-modalidade button:hover{
-    background-color: #04880d;
+    background-color: #02b30e8f;
     transition: 400ms;
   }
   .container .botao-retornar {
@@ -51,3 +55,8 @@
     margin-top: 20px;
     color: red;
   }
+  @keyframes piscar {
+      0%   { opacity: 1; }
+      50%  { opacity: 0.3; }
+      100% { opacity: 1; }
+    }
