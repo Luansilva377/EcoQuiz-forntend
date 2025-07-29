@@ -55,6 +55,9 @@
     margin-top: 20px;
     color: red;
   }
+  #loading{
+    animation: piscar 1.5s infinite ease-in-out;
+  }
   @keyframes piscar {
       0%   { opacity: 1; }
       50%  { opacity: 0.3; }
