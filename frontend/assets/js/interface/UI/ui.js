@@ -78,14 +78,6 @@
       const IconDescricao = document.querySelector(".descricao-plataforma");
       IconDescricao.classList.remove("hider");
     }
-    export function hiderContainerDescricao() {
-      const IconDescricao = document.querySelector(".interface-descricao");
-      IconDescricao.classList.add("hider");
-    }
-    export function appearerContainerDescricao() {
-      const IconDescricao = document.querySelector(".interface-descricao");
-      IconDescricao.classList.remove("hider");
-    }
     export function appearermensagemDeConexao() {
       const MansagemDeConexao = document.getElementById("loading")
       MansagemDeConexao.classList.remove("hider");

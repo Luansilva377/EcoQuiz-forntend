@@ -19,31 +19,6 @@
     height: 50px;
     width: 50px;
   }
-  .container .interface-descricao{
-    background-color: #000000c0;
-    overflow-y: scroll;
-    height: 20rem;
-    width: 33rem;
-    position: absolute;
-    z-index: 1;
-    margin: auto;
-    text-align: justify;
-    padding: 20px;
-    border: 1px solid #00ff44;
-    scrollbar-width: none; 
-    color: burlywood;
-    text-align: justify;
-  }
-  .container .interface-descricao .container-voltar-descricao{
-    display: flex;
-    justify-content: end;
-  }
-  .container .interface-descricao #voltar-descricao{
-    height: 20px;
-    cursor: pointer;
-    margin-right: -16px;
-    position: fixed;
-  }
   .User-Interface {
     display: flex;
     flex-direction: column;
