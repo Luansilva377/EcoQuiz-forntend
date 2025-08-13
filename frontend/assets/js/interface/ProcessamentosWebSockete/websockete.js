@@ -113,22 +113,15 @@ function FimMensagem(dados){
     });
   }
 
-
-
-
-
- function interacaoJogadores(informacoesJogadores) {
+export function interacaoJogadores(informacoesJogadores) {
     const Jogadoresonline = document.querySelectorAll(".informacoes-loob");
   
     Jogadoresonline.forEach((jogadorDiv) => {
       jogadorDiv.addEventListener("click", () => {
         const idJogadorClicado = jogadorDiv.getAttribute("data-id"); //pega o id 
-        const jogadorInfo = informacoesJogadores.find(j => j.id === idJogadorClicado);
         if (idJogadorClicado !== userInformacoes.id) {
-        if (jogadorInfo && jogadorInfo.score >= 10 && userInformacoes.score >= 5) {
-          userInformacoes.score -= 5;
-          jogadorInfo.score -= 10; 
-
+        const jogadorInfo = informacoesJogadores.find(j => j.id === idJogadorClicado);
+        
           // Enviar a pontuação atualizada para o servidor
           websockat.send(
             JSON.stringify({
@@ -144,7 +137,7 @@ function FimMensagem(dados){
             })
           );
           
-        }
+        
       }
       });
     });

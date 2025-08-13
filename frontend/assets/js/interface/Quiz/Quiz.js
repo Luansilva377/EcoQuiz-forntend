@@ -1,10 +1,13 @@
+import { userInformacoes } from "../informacoesParticipantes/userParticipantes.js";
+import { websockat } from "../modalidades/modalidades.js";
 import { hiderContainerQuiz, appearerMensagemFimQuiz, appearerQuestoesQuiz} from "../UI/ui.js";
 
 // quiz.js
-export function QuizApi(ProcessamentoEnvioScoreServidor) {
+export function QuizApi() {
   const feedback = document.getElementById("feedback");
   const feedbackCorreto = document.getElementById("feedback-resposta-correta");
-    let pontuacao = 0;
+
+
     let perguntas = [];
     let botoesOpcoes = [];
     let perguntaAtual = 0;
@@ -67,21 +70,29 @@ pergunta.options.forEach((opcao) => {
       if (respostaSelecionada === respostaCorreta) {
         feedback.textContent = "Correto!";
         feedback.style.color = "green";
-        pontuacao += 10;
-        ProcessamentoEnvioScoreServidor(pontuacao);
+        websockat.send(
+          JSON.stringify({
+            tipo:"SomarPontos",
+            name: userInformacoes.name,
+            score: userInformacoes.score,
+            id: userInformacoes.id
+
+          })
+        );
+       
       } else {
         feedback.textContent = "Errado!";
         feedback.style.color = "red";
         feedbackCorreto.innerText = respostaCorreta;
-      }
+      };
     
       setTimeout(() => {
         perguntaAtual++;
         carregarPergunta();
       }, 2000);
-    }
+    };
     
   
     carregarPerguntas();
-  }
+  };
   

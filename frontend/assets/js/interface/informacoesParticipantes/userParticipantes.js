@@ -14,8 +14,4 @@ export const userInformacoes = {
     };
     
   }
- export function ProcessamentoEnvioScoreServidor(score){
-    userInformacoes.score = score;
-    const pontuacaoJogador = JSON.stringify(userInformacoes)
-    websockat.send(pontuacaoJogador)
-  }
+
